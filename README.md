@@ -45,11 +45,11 @@ If you implement this palette as a color theme somewhere, code comments should b
 As you can see the Light and Dark variantes of **Polarized** share 9 colors and have 8 specific colors. These specific colors were obtained by blending two colors:
 
 ## Others Ressouces & Useful links
-- [Sorbus Auto-Theme for Rouge Highlighter](https://github.com/BenSouchet/sorbus)
-- [Solarized Github Project](https://github.com/altercation/solarized)
-- [Solarized Website](https://ethanschoonover.com/solarized/)
+- [Sorbus Auto-Theme for Rouge Highlighter](https://github.com/BenSouchet/sorbus), in this project **Polarized** is one of the default color palettes available.
+- [Solarized Github Project](https://github.com/altercation/solarized) & [Website](https://ethanschoonover.com/solarized/), the original palette **Polarized** is based on.
+- [Colorizer.org](http://colorizer.org/), super tool to convert and play with colors into multiples color models (HSV, HSL, Lab, ...).
 
 ## Author & maintainer
 Polarized has been created and is currently maintained by [Ben Souchet](https://github.com/BenSouchet).
 
-The code present in this repository is under [MIT license](https://github.com/BenSouchet/polarized/blob/main/LICENSE).
+All the files present in this repository are under [MIT license](https://github.com/BenSouchet/polarized/blob/main/LICENSE).
