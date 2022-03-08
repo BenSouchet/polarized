@@ -10,7 +10,7 @@ The palette is based on [Solarized](https://github.com/altercation/solarized) bu
 
 ![palettes](https://user-images.githubusercontent.com/17025808/156766126-29925756-2f46-40f0-b1de-c9abefffb740.png)
 
-## Colors Info
+## Colors Info / Guidelines
 | Short Name | Color Name | Light Hex | Dark Hex | Apply on | Description |
 |:----------:|:----------:|:---------:|:--------:|:--------:|:-----------:|
 | `bgr` | background | #fdf6e3 | #002c37 | background | Code Block Background, Editor Background |
@@ -31,10 +31,12 @@ The palette is based on [Solarized](https://github.com/altercation/solarized) bu
 | `err` | errors | #dc322f | #dc322f | text OR wavy underline | Errors (the color can be applied to text or only to a wavy underline), Diff Deleted (apply on text) |
 | `ins` | inserted | #83dc2f | #83dc2f | text | Diff Inserted, Success Messages |
 
+As you can see every colors are meant to be used for a specific purpose. Of course if in your case you can't use all the colors do your best to stay as close as possible to the original palette. 
+
+**Last but not least**, if you implement the color palette in an editor, a website, a service, ... please do not modify the color codes (the colors when translated into hexadecimal color code need to be the ones listed above in the table).
+
 ## Additionnal Info
-Normally comments should be displayed in *italics*.  
-**AND**  
-Keywords should be in **bold** (to easily identify them).
+If you implement this palette as a color theme somewhere, code comments should be displayed in *italics*, and keywords should be in **bold** (to easily identify them).
 
 ## Sixteen Color Palette
 **Polarized** is a seventeen (17) color palette but if you need (or are restricted) to only sixteen colors, you can ignore the accent (`acc`) color or use the operators (`opr`) color for the Diff Inserted texts.
