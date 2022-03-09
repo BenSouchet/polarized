@@ -3,7 +3,7 @@
 
 **Polarized** is a color palette (17 colors) for IDEs, editors & code highlighters.  
 
-The palette is based on [Solarized](https://github.com/altercation/solarized) but introduce modifications on the "monotones" colors and a strict guideline on what's the purpose of the colors.
+The palette is based on [Solarized](https://github.com/altercation/solarized) but introduce modifications on the "monotones" colors and a <ins>strict guideline</ins> on what's the purpose of the colors.
 
 ## Light & Dark
 **Polarized** exists in two variants *Light* and *Dark*.
