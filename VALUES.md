@@ -7,14 +7,14 @@ For usage guidelines of the colors [it's here](https://github.com/BenSouchet/pol
 ## Light Variant
 | Color Name | HEX | RGB | HSV/HSB | HSL | Lab |
 |:----------:|:---:|:---:|:-------:|:---:|:---:|
-| background |     |     |         |     |     |
-| highlighted |     |     |         |     |     |
-| selected |     |     |         |     |     |
-| *comments* |     |     |         |     |     |
-| line n° |     |     |         |     |     |
-| default |     |     |         |     |     |
-| accent |     |     |         |     |     |
-| **keywords** |     |     |         |     |     |
+| background | #FDF6E3 | (253, 246, 227) | (43.85, 10.28%, 99.22%) | (43.85, 86.67%, 94.12%) | (96.96, -0.81, 9.96) |
+| highlighted | #E1D8C3 | (225, 216, 195) | (42, 13.33%, 88.24%) | (42, 33.33%, 82.35%) | (86.53, -0.41, 11.45) |
+| selected | #C4BBA2 | (196, 187, 162) | (44.12, 17.35%, 76.86%) | (44.12, 22.37%, 70.2%) | (76, -1, 13.81) |
+| *comments* | #A89D82 | (168, 157, 130) | (42.63, 22.62%, 65.88%) | (42.63, 17.92%, 58.43%) | (65, -0.47, 15.59) |
+| line n° | #8B8061 | (139, 128, 97) | hsl(44.29, 30.22%, 54.51%) | (44.29, 17.80%, 46.27%) | (53.8, -0.91, 18.37) |
+| default | #6F6241 | (111, 98, 65) | (43.04, 41.44%, 43.53%) | (43.04, 26.14%, 34.51%) | (41.99, 0, 20.69) |
+| accent | #524520 | (82, 69, 32) | (44.4, 60.98%, 32.16%) | (44.4, 43.86%, 22.35%) | (29.8, 0.21, 24.12) |
+| **keywords** | #85754E | (133, 117, 78) | (42.55, 41.35%, 52.16%) | (42.55, 26.07%, 41.37%) | (49.81, 0.3, 23.79) |
 | escaped | #CB4B16 | (203, 75, 22) | (17.57, 89.16%, 79.61%) | (17.57, 80.44%, 44.12%) | (49.24, 48.66, 53.77) |
 | reserved | #B58900 | (181, 137, 0) | (45.41, 100%, 70.98%) | (45.41, 100%, 35.49%) | (59.63, 6.71, 64.62) |
 | operators | #859900 | (133, 153, 0) | (67.84, 100%, 60%) | (67.84, 100%, 30%) | (59.68, -23.63, 62.64) |
@@ -45,3 +45,8 @@ For usage guidelines of the colors [it's here](https://github.com/BenSouchet/pol
 | numbers | #D33682 | (211, 54, 130) | (330.96, 74.41%, 82.75%) | (330.96, 64.08%, 51.96%) | (49.62, 65.78, -5.83) |
 | errors | #DC322F | (220, 50, 47) | (1.04, 78.64%, 86.27%) | (1.04, 71.19%, 52.35%) | (49.13, 64.05, 43.34) |
 | inserted | #83DC2F | (131, 220, 47) | (90.87, 78.64%, 86.27%) | (90.87, 71.19%, 52.35%) | (79.74, -52.69, 70.06) |
+
+### About Color Convertion
+The color convertions has been done with **[Colorizer.org](http://colorizer.org/)**, top website with extreme precision on values.
+
+If you find a typo / mistake in the values don't hesitate to [open an issue](https://github.com/BenSouchet/polarized/issues) to let's me know about it.
