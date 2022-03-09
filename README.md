@@ -40,51 +40,11 @@ The last color of each row (image below) aren't used in the final palette, these
 As you can see every colors are meant to be used for a specific purpose. Of course if in your case you can't use all the colors do your best to stay as close as possible to the original palette. 
 
 ## Palette Colors Values
-Find in the table below the exact colors codes in multiple color models (HEX, RGB, HSV, HSL, Lab).  
-**Important**: if you implement the color palette in an editor, a website, a service, ... please do not modify the color codes (use the exact ones listed below in the table).
+Find in [this page](https://github.com/BenSouchet/polarized/blob/main/VALUES.md) a table with the exact colors codes in multiple color models (HEX, RGB, HSV, HSL, Lab).  
 
-### Light Variant
-| Color Name | HEX | RGB | HSV/HSB | HSL | Lab |
-|:----------:|:---:|:---:|:-------:|:---:|:---:|
-| background |     |     |         |     |     |
-| highlighted |     |     |         |     |     |
-| selected |     |     |         |     |     |
-| *comments* |     |     |         |     |     |
-| line n° |     |     |         |     |     |
-| default |     |     |         |     |     |
-| accent |     |     |         |     |     |
-| **keywords** |     |     |         |     |     |
-| escaped | #CB4B16 | (203, 75, 22) | (17.57, 89.16%, 79.61%) | (17.57, 80.44%, 44.12%) | (49.24, 48.66, 53.77) |
-| reserved | #B58900 | (181, 137, 0) | (45.41, 100%, 70.98%) | (45.41, 100%, 35.49%) | (59.63, 6.71, 64.62) |
-| operators | #859900 | (133, 153, 0) | (67.84, 100%, 60%) | (67.84, 100%, 30%) | (59.68, -23.63, 62.64) |
-| strings | #2AA198 | (42, 161, 152) | (175.46, 73.91%, 63.14%) | (175.46, 58.62%, 39.80%) | (60.11, -33.85, -4.64) |
-| variables | #268BD2 | (38, 139, 210) | (204.77, 81.9%, 82.35%)| (204.77, 69.35%, 48.63%) | (55.61, -3.26, -44.39) |
-| names | #6C71C4 | (108, 113, 196) | (236.59, 44.90%, 76.86%) | (236.59, 42.72%, 59.61%) | (50.67, 19.88, -44.07) |
-| numbers | #D33682 | (211, 54, 130) | (330.96, 74.41%, 82.75%) | (330.96, 64.08%, 51.96%) | (49.62, 65.78, -5.83) |
-| errors | #DC322F | (220, 50, 47) | (1.04, 78.64%, 86.27%) | (1.04, 71.19%, 52.35%) | (49.13, 64.05, 43.34) |
-| inserted | #83DC2F | (131, 220, 47) | (90.87, 78.64%, 86.27%) | (90.87, 71.19%, 52.35%) | (79.74, -52.69, 70.06) |
+There is also files in the [`palette` folder]() defining the colors in HEX in multiple formats: [YAML](), [CSS](), [SCSS]().
 
-### Dark Variant
-| Color Name | HEX | RGB | HSV/HSB | HSL | Lab |
-|:----------:|:---:|:---:|:-------:|:---:|:---:|
-| background | #002B36 | (0, 43, 54) | (192.22, 100%, 21.18%) | (192.22, 100%, 10.59%) | (15.46, -9.35, -11.09) |
-| highlighted | #204852 | (32, 72, 82) | (192, 60.98%, 32.16%) | (192, 43.86%, 22.36%) | (28.25, -10.71, -10.24) |
-| selected | #41656F | (65, 101, 111) | (193.04, 41.44%, 43.53%) | (193.04, 26.14%, 34.51%) | (40.54, -10.02, -9.71) |
-| *comments* | #61828B | (97, 130, 139) | (192.86, 30.22%, 54.51%) | (192.86, 17.80%, 46.27%) | (52.25, -9.36, -8.64) |
-| line n° | #82A0A7 | (130, 160, 167) | (191.35, 22.16%, 65.49%) | (191.35, 17.37%, 58.24%) | (63.9, -8.75, -7.08) |
-| default | #A2BDC3 | (162, 189, 195) | (190.91, 16.92%, 76.47%) | (190.91, 21.57%, 70%) | (74.84, -7.85, -6.1) |
-| accent | #C3DAE0 | (195, 218, 224) | (192.41, 12.95%, 87.84%) | (192.41, 31.87%, 82.16%) | (85.57, -6.43, -5.55) |
-| **keywords** | #92ACB2 | (146, 172, 178) | hsl(191.25, 17.98%, 69.80%) | (191.25, 17.20%, 63.53%) | (68.63, -7.62, -6.08) |
-| escaped | #CB4B16 | (203, 75, 22) | (17.57, 89.16%, 79.61%) | (17.57, 80.44%, 44.12%) | (49.24, 48.66, 53.77) |
-| reserved | #B58900 | (181, 137, 0) | (45.41, 100%, 70.98%) | (45.41, 100%, 35.49%) | (59.63, 6.71, 64.62) |
-| operators | #859900 | (133, 153, 0) | (67.84, 100%, 60%) | (67.84, 100%, 30%) | (59.68, -23.63, 62.64) |
-| strings | #2AA198 | (42, 161, 152) | (175.46, 73.91%, 63.14%) | (175.46, 58.62%, 39.80%) | (60.11, -33.85, -4.64) |
-| variables | #268BD2 | (38, 139, 210) | (204.77, 81.90%, 82.35%)| (204.77, 69.35%, 48.63%) | (55.61, -3.26, -44.39) |
-| names | #6C71C4 | (108, 113, 196) | (236.59, 44.90%, 76.86%) | (236.59, 42.72%, 59.61%) | (50.67, 19.88, -44.07) |
-| numbers | #D33682 | (211, 54, 130) | (330.96, 74.41%, 82.75%) | (330.96, 64.08%, 51.96%) | (49.62, 65.78, -5.83) |
-| errors | #DC322F | (220, 50, 47) | (1.04, 78.64%, 86.27%) | (1.04, 71.19%, 52.35%) | (49.13, 64.05, 43.34) |
-| inserted | #83DC2F | (131, 220, 47) | (90.87, 78.64%, 86.27%) | (90.87, 71.19%, 52.35%) | (79.74, -52.69, 70.06) |
-
+**Important**: if you implement the color palette in an editor, a website, a service, ... please do not modify the color codes (use the exact ones listed in [this page](https://github.com/BenSouchet/polarized/blob/main/VALUES.md)).
 
 ## Additionnal Info
 If you implement this palette as a color theme somewhere, code comments should be displayed in *italics*, and keywords should be in **bold** (to easily identify them).
