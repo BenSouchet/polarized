@@ -1,5 +1,9 @@
 # Polarized Palette Colors Values
 
+**Important**: If you implement the color palette in an editor, a website, a service, ... please do not modify the color codes (use the exact ones listed in below).
+
+For usage guidelines of the colors [it's here](https://github.com/BenSouchet/polarized/blob/main/README.md#colors-info--guidelines).
+
 ## Light Variant
 | Color Name | HEX | RGB | HSV/HSB | HSL | Lab |
 |:----------:|:---:|:---:|:-------:|:---:|:---:|
