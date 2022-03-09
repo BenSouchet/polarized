@@ -42,7 +42,7 @@ As you can see every colors are meant to be used for a specific purpose. Of cour
 ## Palette Colors Values
 Find in [this page](https://github.com/BenSouchet/polarized/blob/main/VALUES.md) a table with the exact colors codes in multiple color models (HEX, RGB, HSV, HSL, Lab).  
 
-There is also files in the [`palette` folder](https://github.com/BenSouchet/polarized/tree/main/palette) defining the colors in HEX in multiple formats: [YAML](https://github.com/BenSouchet/polarized/tree/main/palette/yaml), [CSS](), [SCSS]().
+There is also files in the [`palette` folder](https://github.com/BenSouchet/polarized/tree/main/palette) defining the colors in HEX in multiple formats: [YAML](https://github.com/BenSouchet/polarized/tree/main/palette/yaml), [CSS](https://github.com/BenSouchet/polarized/tree/main/palette/css), [SCSS](https://github.com/BenSouchet/polarized/tree/main/palette/scss).
 
 **Important**: if you implement the color palette in an editor, a website, a service, ... please do not modify the color codes (use the exact ones listed in [this page](https://github.com/BenSouchet/polarized/blob/main/VALUES.md)).
 
