@@ -42,7 +42,7 @@ As you can see every colors are meant to be used for a specific purpose. Of cour
 ## Palette Colors Values
 Find in [this page](https://github.com/BenSouchet/polarized/blob/main/VALUES.md) a table with the exact colors codes in multiple color models (HEX, RGB, HSV, HSL, Lab).  
 
-There is also files in the [`palette` folder](https://github.com/BenSouchet/polarized/tree/main/palette) defining the colors in HEX in multiple formats: [YAML](https://github.com/BenSouchet/polarized/tree/main/palette/yaml), [CSS](https://github.com/BenSouchet/polarized/tree/main/palette/css), [SCSS](https://github.com/BenSouchet/polarized/tree/main/palette/scss).
+There is also files in the [`palette/` folder](https://github.com/BenSouchet/polarized/tree/main/palette) defining the colors in HEX in multiple formats: [YAML](https://github.com/BenSouchet/polarized/tree/main/palette/yaml), [CSS](https://github.com/BenSouchet/polarized/tree/main/palette/css), [SCSS](https://github.com/BenSouchet/polarized/tree/main/palette/scss).
 
 **Important**: if you implement the color palette in an editor, a website, a service, ... please do not modify the color codes (use the exact ones listed in [this page](https://github.com/BenSouchet/polarized/blob/main/VALUES.md)).
 
@@ -52,13 +52,17 @@ If you implement this palette as a color theme somewhere, code comments should b
 ## Sixteen Color Palette
 **Polarized** is a seventeen (17) color palette but if you need (or are restricted) to only sixteen colors, you can ignore the accent (`acc`) color or use the operators (`opr`) color for the Diff Inserted texts.
 
+## Version
+The current version is `1.0.0`, you can download the latest release on the **Releases** category (on the sidebar) or from [this page](https://github.com/BenSouchet/polarized/releases).
+
 ## Others Ressouces & Useful links
 - [Sorbus Auto-Theme for Rouge Highlighter](https://github.com/BenSouchet/sorbus), in this project **Polarized** is one of the default color palettes available.
 - [Solarized Github Project](https://github.com/altercation/solarized) & [Website](https://ethanschoonover.com/solarized/), the original palette **Polarized** is based on.
+- [Rowan Color Palette](https://github.com/BenSouchet/rowan), another cool color palette.
 - [Color Blend](https://bensouchet.github.io/color-blend/), website to blend two colors and generate intermediates colors.
 - [Colorizer.org](http://colorizer.org/), super tool to convert and play with colors into multiples color models (HSV, HSL, Lab, ...).
 
 ## Author & maintainer
-Polarized has been created and is currently maintained by [Ben Souchet](https://github.com/BenSouchet).
+**Polarized** has been created and is currently maintained by [Ben Souchet](https://github.com/BenSouchet).
 
 All the files present in this repository are under [MIT license](https://github.com/BenSouchet/polarized/blob/main/LICENSE).

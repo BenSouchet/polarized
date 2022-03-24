@@ -1,5 +1,6 @@
 scheme: "Polarized"
 author: "Ben Souchet"
+version: "1.0.0"
 light:
   bgr: "FDF6E3"
   hgl: "E1D8C3"
